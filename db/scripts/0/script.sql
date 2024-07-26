@@ -1,8 +1,8 @@
 create table cities (
-	id serial primary key,
-	name varchar(255),
+	id serial PRIMARY KEY,
+	"name" varchar(255),
 	population int,
-	area float4
+	area numeric
 );
 
 insert into cities(name, area, population) values('Moscow', 2.511, 13000000);
